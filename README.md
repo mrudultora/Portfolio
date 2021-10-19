@@ -10,6 +10,8 @@ A Single Page React App built with `react-router-dom` for navigation on other pa
 
 The Portfolio comprises of various sections including Opensource Contributions displayed beautifully using [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2), Projects, Blogs, Contact Form, etc
 
+<b>Credits: </b> [@mitul-garg](https://github.com/mitul-garg)
+
 ## Technologies Used
 
 [React JS](https://reactjs.org/)
@@ -19,10 +21,9 @@ The Portfolio comprises of various sections including Opensource Contributions d
 
 - Completely Responsive Design
 - All data is loaded dynamically from Javascript and JSON files
+- Dark Mode Toggle
 - Navigation using Navbar for Desktop screens and Sidebar for Mobile Screens
 - Error Page if someone drops in on wrong address
-
-<b>Credits: </b> [@mitul-garg](https://github.com/mitul-garg)
 
 ## Follow these steps, to make this portfolio your own,
 

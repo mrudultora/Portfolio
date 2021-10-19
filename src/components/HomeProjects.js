@@ -15,10 +15,10 @@ export const HomeProjects = () => {
             project;
           return (
             <article key={id} className="project">
-              {/* <div className="img-holder">
+              <div className="img-holder">
                 <img src={img} alt="" className="project-img" />
                 <div className="img-overlay"></div>
-              </div> */}
+              </div>
               <article className="project-info">
                 <h2>{title}</h2>
                 <p>{details}</p>

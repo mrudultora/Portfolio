@@ -6,9 +6,6 @@ export const DownloadButton = (props) => {
     <button className="hero-btn resume">
       <a
         href={CV}
-        download="Mrudul_Tora_Resume"
-        target="_blank"
-        rel="noreferrer"
         className="resume-link"
       >
         Resume <FaDownload />
