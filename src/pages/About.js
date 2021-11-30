@@ -1,5 +1,5 @@
 import React from "react";
-import heroImgAbout from "../assets/images/hero.svg";
+import heroImgAbout from "../assets/hero.svg";
 import { skills } from "../data/skills";
 import { Education } from "../components/Education";
 

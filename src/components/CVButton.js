@@ -6,8 +6,7 @@ export const DownloadButton = (props) => {
     <button className="hero-btn resume">
       <a
         href={CV}
-        className="resume-link"
-      >
+        className="resume-link">
         Resume <FaDownload />
       </a>
     </button>

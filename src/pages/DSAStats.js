@@ -1,17 +1,18 @@
 import React from "react";
 
 import { Doughnut } from "react-chartjs-2";
+import { SiLeetcode, SiCodechef, SiGeeksforgeeks } from "react-icons/si";
 
 const problemsData = {
-  labels: ["GFG Practice", "Codechef", "Codeforces", "Leetcode"],
+  labels: ["GFG Practice", "Codechef", /*"Codeforces" ,*/ "Leetcode"],
   datasets: [
     {
-      data: [300, 25, 87, 84],
-      backgroundColor: ["#2a9d8f", "#cb997e", "#264653", "#e9c46a"],
+      data: [397, 72, /*298,*/ 139],
+      backgroundColor: ["#2a9d8f", "#cb997e", /*"#264653",*/ "#e9c46a"],
       hoverBackgroundColor: [
         "#2a9d8fdd",
         "#cb997edd",
-        "#264653dd",
+        // "#264653dd",
         "#e9c46add",
       ],
     },
@@ -33,24 +34,24 @@ export const DSAStats = () => {
       <div className="dsastats-details skills">
         <button className="dsa-button skill">
           <a href="https://auth.geeksforgeeks.org/user/mrudultora/practice/">
-            GFG Profile
+            GFG Profile <SiGeeksforgeeks />
           </a>
         </button>
         <button className="dsa-button skill">
           <a href="https://leetcode.com/mrudultora/">
-            Leetcode
+            Leetcode <SiLeetcode />{" "}
           </a>
         </button>
         <button className="dsa-button skill">
           <a href="https://www.codechef.com/users/mrudultora">
-            Codechef
+            Codechef <SiCodechef />
           </a>
         </button>
-        <button className="dsa-button skill">
+        {/* <button className="dsa-button skill">
           <a href="https://codeforces.com/profile/tora24">
             Codeforces
           </a>
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { socialLinks } from "../data/socialLinks";
-import heroImg from "../assets/images/hero.svg";
+import heroImg from "../assets/hero.svg";
 import { DownloadButton } from "../components/CVButton";
 
 export const Hero = () => {

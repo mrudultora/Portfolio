@@ -1,12 +1,19 @@
 import React from "react";
 import { FaLinkedin, FaGooglePlay } from "react-icons/fa";
-import { SiStackoverflow, SiGithub, SiLeetcode, SiCodechef } from "react-icons/si";
+import {
+  // SiCodeforces,
+  SiGithub,
+  SiLeetcode,
+  SiCodechef,
+  SiStackoverflow,
+  SiGeeksforgeeks,
+} from "react-icons/si";
 
 export const socialLinks = [
   {
     id: 1,
     icon: <FaLinkedin className="social-icon" />,
-    url: "https://www.linkedin.com/in/mrudul-tora-571004166/",
+    url: "https://www.linkedin.com/in/mrudultora",
   },
   {
     id: 2,
